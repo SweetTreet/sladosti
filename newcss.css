@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.04.2019, 15:01:07
+    Author     : ekoryakin
+*/
+.qwerty{background:  cyan;height: 140px;  position: fixed;   width: 97.5%; box-shadow: 0 0 25px gray;  
+    -webkit-filter: brightness(80%); border-radius: 150px;
+  filter: brightness(80%); background-repeat: no-repeat; background-position: center center ; margin: 0  10px 0; background-attachment: fixed;background-size:cover;z-index: 100;  }/*kalonna.jpg */
+
+.tos{ 
+    position: absolute;
+    position: fixed;
+    margin:20px 20px auto ;
+    float: left;
+    transform: rotate(0deg);
+    transform: translate (0);
+    background:#ffffff;
+    border-radius: 0px;
+    height:75px;
+    width:75px;
+    -webkit-animation-name:animWS;
+    -webkit-animation-DURATION:18s;
+    animation-name:animWS;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+@-WEBkit-keyframes animWS{ 
+    0%{border-radius: 0px; transform: rotate(0deg);background:#ffffff;box-shadow: 0 0 100px  #D2B48C}
+    10%{border-radius: 50px 0 0 0; transform:rotate(45deg) ;background: violet;box-shadow:none }
+    20%{border-radius: 50px 50px 0 0; transform: rotate(90deg);background: pink;box-shadow:none }
+    30%{border-radius: 50px 50px 50px 0;transform: rotate(135deg); background:  #ffccff;box-shadow:none }
+    40%{border-radius: 50px 50px 50px 50px;transform: rotate(180deg)  translate (6em, 0) ;background:  #ffffff; transform: translate (6em, 0);box-shadow:0 0 100px #D2B48C }
+    50%{border-radius: 50px 50px 50px 0;transform: rotate(135deg);background: #ffccff;box-shadow:none  }
+    60%{border-radius: 50px 50px 0 0;transform: rotate(90deg); background: pink; box-shadow:none }
+    70%{border-radius: 50px 0 0 0 ;transform: rotate(45deg); background: violet;box-shadow:none }
+    80%{border-radius: 0px;transform: rotate(0deg);background: #ffffff;box-shadow:0 0 30px yellow;}
+    90%{border-radius: 0px;transform: rotate(0deg);background: #ffffff;box-shadow:0 0 30px yellow;}
+    100%{border-radius: 0px;transform: rotate(0deg);background: #ffffff;box-shadow:0 0 30px yellow;}
+
+}
+.podcherk{text-decoration: none; }
+ul.submenu {
+
+    display: none;
+    position: absolute;
+
+    width: 200px;
+    top: 39px;
+    left: 10px;
+    background-color: white;
+    border: 2px solid  black;
+    border-radius: 2px;
+}
+ul.submenu > li {
+    display: block;
+
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color:     black;
+
+    text-decoration: none;
+
+}
+ul.submenu > li > a:hover {
+    position: absolute;
+    position: fixed;
+    text-decoration: underline;
+}
+ul { 
+     
+    opacity: 0.6;
+    position: fixed;
+    top: 15px;
+    position: fixed;
+    background:  black;
+    display: block;
+    width: 80%;
+    margin: 20px  120px  ;
+    padding: 0;
+    list-style: none;
+    border:2px solid  black;
+
+}
+ul:after { 
+    
+     background:black;
+    display: block;
+    content: ' ';
+    clear: both;
+    float: top;
+
+}
+ul.menu > li {
+
+    float: left;
+    position: relative;
+    width: 50%;
+
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color:  black;
+    text-decoration: black;
+ 
+    border-radius: 0px;
+
+    margin: 10px;
+
+
+
+
+}
+ul.menu > li > a:hover {
+border-radius: 10px;
+    background-color: black;
+         box-shadow:0 0 25px 0 white;
+
+
+}
+.divom{width: 1070px; height: 1400px ; background:  none;}
+.divommm{width: 1070px; height: 3200px; background: none;}
+ .px{width:19%; height: 450px; ; background:#D2B48C ; float:  left;   margin: 150px  27px -105px 100px; border-radius: 10px; background: rgba(210, 180, 140,0.5) }
+.kontakt{width: 40%;  box-shadow:0 0 25px 0 black; height: 100px;text-decoration: none;background: grey; opacity: 0.6; margin: 150px  17px -105px 420px; float: left;border-radius:20px }
+ .pokazat{width: 40%; height: 60px; border-radius:20px ; text-decoration: none; background: grey; opacity: 0.5;   margin: 160px  17px -105px 400px; float: left }
+.pokazatdva{width: 40%; height: 60px;border-radius:20px;text-decoration: none;background: grey; opacity: 0.6; margin: 150px  17px -105px 320px; float: left}
+.kartina{margin: 250px  27px -105px -490px;height: 200px; width: 200px;float: left; background: none;border-radius:60px;}
+.vk{width: 6%;  box-shadow:0 0 25px 0 red; height: 60px;text-decoration: none;background: grey; opacity: 0.6; margin: 120px  17px -105px 650px; float: left;border-radius:200px}
+
+.round{border-radius: 260px}
+.animatia3{   
+    box-shadow: 0 0 20px black;  
+    margin: 15% 7% ;
+    height:200px ;
+    width:85%; 
+    border: 1px  solid;
+    border-radius: 12px;
+    background-color: #fff;
+    line-height:  10px;
+    text-align: center;
+
+    border-color: gray; 
+    -webkit-transition:0.5s ease-in-out coral;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition:  0.5s ease-in-out;
+    transition:  0.5s ease-in-out;}
+.loom:hover  { box-shadow: 0 0 25px  #D2B48C ; 
+
+               -webkit-transform:  scale(1.1);
+               -moz-transform:  scale(1.1);
+               -o-transform: scale(1.1);
+               transform: scale(1.1) ;  
+}
