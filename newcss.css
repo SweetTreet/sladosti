@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 19.04.2019, 15:01:07
     Author     : ekoryakin
 */
-.qwerty{background:  cyan;height: 140px;  position: fixed;   width: 97.5%; box-shadow: 0 0 25px gray;  
+.qwerty{background:  cyan;height: 22.5%;  position: fixed;   width: 97.5%; box-shadow: 0 0 25px gray;  
     -webkit-filter: brightness(80%); border-radius: 150px;
   filter: brightness(80%); background-repeat: no-repeat; background-position: center center ; margin: 0  10px 0; background-attachment: fixed;background-size:cover;z-index: 100;  }/*kalonna.jpg */
 
@@ -82,7 +82,7 @@ ul {
     background:  black;
     display: block;
     width: 80%;
-    margin: 20px  120px  ;
+    margin: 3%  16.5%  ;
     padding: 0;
     list-style: none;
     border:2px solid  black;
@@ -101,7 +101,7 @@ ul.menu > li {
 
     float: left;
     position: relative;
-    width: 50%;
+    width: 40%;
 
 }
 ul.menu > li > a {
@@ -129,11 +129,11 @@ border-radius: 10px;
 .divom{width: 1070px; height: 1400px ; background:  none;}
 .divommm{width: 1070px; height: 3200px; background: none;}
  .px{width:19%; height: 450px; ; background:#D2B48C ; float:  left;   margin: 150px  27px -105px 100px; border-radius: 10px; background: rgba(210, 180, 140,0.5) }
-.kontakt{width: 40%;  box-shadow:0 0 25px 0 black; height: 100px;text-decoration: none;background: grey; opacity: 0.6; margin: 150px  17px -105px 420px; float: left;border-radius:20px }
- .pokazat{width: 40%; height: 60px; border-radius:20px ; text-decoration: none; background: grey; opacity: 0.5;   margin: 160px  17px -105px 400px; float: left }
-.pokazatdva{width: 40%; height: 60px;border-radius:20px;text-decoration: none;background: grey; opacity: 0.6; margin: 150px  17px -105px 320px; float: left}
+.kontakt{width: 40%;  text-decoration:  buttonshadow  line-through;box-shadow:0 0 25px 0 black; height: 100px;text-decoration: none;background: gray; opacity: 0.6; margin: 15% 45% 0% 32.5%; float: left;border-radius:20px }
+ .pokazat{width: 40%; height: 60px; border-radius:20px ; text-decoration: none; background: grey; opacity: 0.5;   margin: 16% 45% 0% 30.5%; float: left }
+.pokazatdva{width: 40%; height: 60px;border-radius:20px;text-decoration: none;background: grey; opacity: 0.6; margin: 13% 45% 0% 29%; float: left}
 .kartina{margin: 250px  27px -105px -490px;height: 200px; width: 200px;float: left; background: none;border-radius:60px;}
-.vk{width: 6%;  box-shadow:0 0 25px 0 red; height: 60px;text-decoration: none;background: grey; opacity: 0.6; margin: 120px  17px -105px 650px; float: left;border-radius:200px}
+.vk{width: 6%;  box-shadow:0 0 25px 0 red; height: 60px;text-decoration: none;background: grey; opacity: 0.6; margin: 5% 40% 0% 49%; float: left;border-radius:200px}
 
 .round{border-radius: 260px}
 .animatia3{   
